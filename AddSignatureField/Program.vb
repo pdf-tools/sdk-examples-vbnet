@@ -51,7 +51,7 @@ Namespace PdfToolsAddSignatureField
             Try
                 ' By default, a test license key is active. In this case, a watermark is added to the output. 
                 ' If you have a license key, please uncomment the following call and set the license key.
-                ' PdfTools.Sdk.Initialize("insert-license-key-here")
+                ' PdfTools.Sdk.Initialize("<-- insert license key -->")
 
                 ' Add a signature field to a PDF document
                 AddSignatureField(args(0), args(1))
