@@ -39,7 +39,7 @@ Namespace PdfToolsMerge
             Try
                 ' By default, a test license key is active. In this case, a watermark is added to the output. 
                 ' If you have a license key, please uncomment the following call and set the license key.
-                ' PdfTools.Sdk.Initialize("insert-license-key-here")
+                ' PdfTools.Sdk.Initialize("<-- insert license key -->")
 
                 Merge(args.Take(args.Length - 1), args.Last())
                 Console.WriteLine("Execution successful.")
